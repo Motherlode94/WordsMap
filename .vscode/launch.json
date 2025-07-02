@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome", // Ou "msedge" pour Edge
+            "request": "launch",
+            "name": "Lancer Chrome pour déboguer le jeu",
+            "url": "http://localhost:5500/index.html", // Si vous utilisez Live Server, adaptez l'URL
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Prend au moins toute la hauteur de la fenêtre */
+    margin: 0;
+    background-color: #222; /* Un fond sombre pour la page */
+    overflow: hidden; /* Empêche les barres de défilement si le contenu dépasse */
+    font-family: Arial, sans-serif; /* Une police de base */
+}
+
+canvas {
+    background-color: #000; /* Fond noir pour notre zone de jeu */
+    border: 2px solid #0f0; /* Une bordure verte néon pour le style */
+    display: block; /* Supprime l'espace blanc par défaut sous le canvas */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7); /* Une ombre lumineuse */
+}
